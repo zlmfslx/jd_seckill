@@ -47,7 +47,7 @@ func init()  {
 
 func main()  {
 	runtime.GOMAXPROCS(runtime.NumCPU())
-
+	fmt.Println("p1staff")
 	//用户登录
 	user:=jd_seckill.NewUser(client,config)
 	wlfstkSmdl,err:=user.QrLogin()
